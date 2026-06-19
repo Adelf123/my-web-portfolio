@@ -1,0 +1,128 @@
+body {
+  background: #dde8f0;
+  min-height: 100vh;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 620px;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 40px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15)
+}
+.top {
+padding: 2rem;
+background-color: white;
+}
+.top h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #26ada7;
+  margin-bottom: 0.75rem;
+}
+.top h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color:  hsl(71, 73%, 54%);
+  margin-bottom: 0.75rem;
+}
+.top p {
+  font-size: 16px;
+  color: #9aabab;
+  line-height: 1.6;
+}
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left{
+  background-color:  hsl(179, 62%, 43%);
+  padding: 1.75rem;
+}
+.right { 
+  background-color:  hsl(179, 41%, 54%);
+  padding: 1.75rem; 
+}
+.section-title-1 {
+  color: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-inline: 16px;
+  margin-bottom: 19px;
+  margin-top: 10px;
+}
+.section-title-2 {
+  color: white;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-inline: 16px;
+  margin-bottom: 19px;
+  margin-top: 10px;
+}
+.price {
+  gap:  8px;
+  display : flex;
+  margin-bottom: 0.7rem
+}
+.price-num {
+  color: white;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.price-per {
+  margin-top: 9px;
+  color: hsl(179, 38%, 72%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtext {
+  margin-bottom: 26px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.signup-btn {
+  padding-inline: 100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 19px;
+  border-radius: 6px;
+  background-color: hsl(71, 73%, 54%);
+  border-color: hsl(71, 73%, 54%);
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.features {
+  margin-left: 15px;
+}
+.features h5 {
+  margin-bottom: 4px;
+  color: hsl(179, 38%, 72%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 425px) {
+  .bottom {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .signup-btn {
+    width: 100%;
+    padding-inline: 0;
+  }
+}
