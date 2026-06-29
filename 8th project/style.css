@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0
+}
+.logo{
+  animation: bounce 10s linear infinite;
+   position: absolute;
+      width: 150px;
+      padding: 15px 25px;
+      background-color: #d8b384;
+      color: #fff8f0;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+      text-align: center;
+      border-radius: 8px;
+}
+@keyframes bounce {
+  0% { top: 0%; left: 0% }
+  70% { top: 70%; left: 100%; }
+  80% { top: 90%; left: 50%; }
+  100% { top: 0%; left: 20%; }
+
+}

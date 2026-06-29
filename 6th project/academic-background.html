@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <div class="page">
+    <div class="container">
+      <ul class="nav-bar">
+        <li><a href="personal-details.html">Personal</a></li>
+        <li><a href="medicals.html">Medical</a></li>
+        <li><a href="guardians.html">Guardian</a></li>
+        <li><a href="academic-background.html"class="active">Academics</a></li>
+      </ul>
+      <header>ACADEMIC BACKGROUND</header>
+      <form>
+        <div class="form-group">
+          <label for="uni-name">University/Institution Name *</label>
+        <input type="text" id="uni-name" required>
+        </div>
+
+         <div class="form-group">
+          <label for="grad-year">Graduation year*</label>
+        <input type="number" id="grad-year" min="1964" required>
+         </div>
+
+           <div class="form-group">
+            <label for="course">Course of Study *</label>
+        <input type="text" id="course" required>
+           </div>
+
+           <div class="form-group">
+            <label for="start-year">Year Started *</label>
+        <input type="number" id="start-year" min="1960" required>
+           </div>
+
+<div class="form-group">
+  <label>Degrees *</label>
+  <div class="checkbox-group">
+    <label><input type="checkbox" name="degrees" value="bachelors">Bachelor's Degree </label>
+   <label><input type="checkbox" name="degrees" value="masters">Master's Degree </label>
+   <label><input type="checkbox" name="degrees" value="associates">Associate Degree</label>
+   <label><input type="checkbox" name="degrees" value="doctoral">Doctoral Degree </label>
+  </div>
+</div>
+    
+         <a href=""><button type="submit">Submit</button></a>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
