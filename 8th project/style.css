@@ -17,8 +17,8 @@
 }
 @keyframes bounce {
   0% { top: 0%; left: 0% }
-  70% { top: 70%; left: 100%; }
-  80% { top: 90%; left: 50%; }
-  100% { top: 0%; left: 20%; }
+  50% { top: 70%; left: 85%; }
+  75% { top: 90%; left: 50%; }
+  100% { top: 0%; left: 0%; }
 
 }
